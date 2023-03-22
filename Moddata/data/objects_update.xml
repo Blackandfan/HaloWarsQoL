@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Objects>
+	<Object name="env_shieldinterior_redriver_01" is="0" dbid="4353" update="true">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>environment\shieldinterior\redriver_01\redriver_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="game_CTF_flag_01" is="0" id="2061" dbid="4355" update="true">
+		<PhysicsInfo>sentinel</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner/air/monitor_01/monitor_01.vis</Visual>
+		<FlightLevel>25</FlightLevel>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>26052</DisplayNameID>
+		<MovementType>Air</MovementType>
+		<Velocity>30</Velocity>
+		<ReverseSpeed>25.0f</ReverseSpeed>
+		<TurnRate>100</TurnRate>
+		<Hitpoints>1</Hitpoints>
+		<LOS>14</LOS>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<ObjectType>Collectable</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<PickPriority>Resource</PickPriority>
+		<SelectType>SingleUnit</SelectType>
+		<ResourceAmount>0.100000001</ResourceAmount>
+		<DeathFadeDelayTime>0</DeathFadeDelayTime>
+		<SurfaceType>Metal</SurfaceType>
+		<Flag>DieAtZeroResources</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+	</Object>
+	<Object name="sys_icon_53_01" is="0" id="" dbid="4361" update="true">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>ctf star</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="ffa_starterbase_01" id="0" dbid="2907">
+		<ObjectType>CreepBaseTarget</ObjectType>
+		<ObjectClass>Building</ObjectClass>
+		<TrainerType>0</TrainerType>
+		<Visual>environment\arcadia\civbuilding_01\civbuilding_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_command_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<DisplayNameID>23946</DisplayNameID>
+		<RolloverTextID>23947</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>20</CombatValue>
+		<LOS>85</LOS>
+		<BuildPoints>30</BuildPoints>
+		<PopCapAddition Type="Unit">0</PopCapAddition>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Bounty>14</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="0" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>38</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>22.5</ObstructionRadiusZ>
+		<SelectedRadiusX>17.3999996</SelectedRadiusX>
+		<SelectedRadiusZ>15.6000004</SelectedRadiusZ>
+		<PickRadius>23.2999992</PickRadius>
+		<PickOffset>-1</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<GotoType>Base</GotoType>
+		<ExitFromDirection>1</ExitFromDirection>
+		<Command Type="DestroyBase" Position="4" />
+		<Command Type="TrainLock" Position="3" />
+		<Command Type="RallyPoint" Position="5" />
+		<Sound Type="Create">play_vog_building_station</Sound>
+		<Sound Type="Death">play_death_command_center</Sound>
+		<Sound Type="Exist">play_unsc_cc_exist</Sound>
+		<Sound Type="StopExist">stop_unsc_cc_exist</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>_Base</ObjectType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Any">PowerSocketBase</Socket>
+		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
+		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ObstructsAir</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>KillGarrisoned</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>SelfParkingLot</Flag>
+		<Flag>KillChildObjectsOnDeath</Flag>
+		<Flag>PassiveGarrisoned</Flag>
+		<Flag>TriggersBattleMusicWhenAttacked</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>.</FlashUI>
+		<HPBar offset="0,23,0">UNSC_Bldg_HealthCommand</HPBar>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+	</Object>
+	<Object name="ffa_startunit_01" id="0" dbid="3008">
+		<Ability>FreeForAll.triggerscript</Ability>
+		<PhysicsInfo>elephant</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<TrainerType>3</TrainerType>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>23668</DisplayNameID>
+		<RolloverTextID>23669</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>9</Velocity>
+		<TurnRate>60</TurnRate>
+		<Hitpoints>10000</Hitpoints>
+		<LOS>55</LOS>
+		<CombatValue>16</CombatValue>
+		<Bounty>12</Bounty>
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<Tactics>unsc_veh_elephant_01.tactics</Tactics>
+		<RepairPoints>300</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<PickRadius>7</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>9</SelectedRadiusZ>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Command Type="Unload" Position="0" />
+		<AbilityCommand>cpgnUnload</AbilityCommand>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<ExitFromDirection>2</ExitFromDirection>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>ForerunnerStealPower</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>TowTruck</ObjectType>
+		<Flag>KBAware</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ShowRange</Flag>
+		<Flag>LockdownMenu</Flag>
+		<Flag>NonRotatable</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>24</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>25</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+</Objects>
