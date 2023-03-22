@@ -26,7 +26,7 @@
 		<TriggerVar ID="76" Type="Squad" Name="SquadVar2" IsNull="true" />
 		<TriggerVar ID="77" Type="Object" Name="ObjectVar2" IsNull="true" />
 		<TriggerVar ID="83" Type="Unit" Name="ActiveSpawner" IsNull="false" />
-		<TriggerVar ID="112" Type="String" Name="" IsNull="false">Flood</TriggerVar>
+		<TriggerVar ID="112" Type="String" Name="" IsNull="false">Creeps</TriggerVar>
 		<TriggerVar ID="113" Type="PlayerState" Name="NPCPlayerStateVar1" IsNull="true" />
 		<TriggerVar ID="119" Type="ListPosition" Name="" IsNull="false">First</TriggerVar>
 		<TriggerVar ID="120" Type="Player" Name="FloodPlayerNumber" IsNull="false" />
@@ -2312,6 +2312,18 @@
 		<TriggerVar ID="4895" Type="Trigger" Name="TriggerVar484" IsNull="false">279</TriggerVar>
 		<TriggerVar ID="4896" Type="Trigger" Name="TriggerVar485" IsNull="false">561</TriggerVar>
 		<TriggerVar ID="4897" Type="Trigger" Name="TriggerVar486" IsNull="false">577</TriggerVar>
+
+		<TriggerVar ID="5000" Type="Player" Name="Player" IsNull="true" />
+		<TriggerVar ID="5001" Type="String" Name="" IsNull="false">floodcontrol_basebuilding.triggerscript</TriggerVar>
+		<TriggerVar ID="5002" Type="Unit" Name="ExternalUnitVar2" IsNull="true" />
+		<TriggerVar ID="5003" Type="UnitList" Name="ExternalUnitListVar2" IsNull="true" />
+		<TriggerVar ID="5004" Type="Squad" Name="ExternalSquadVar2" IsNull="true" />
+		<TriggerVar ID="5005" Type="SquadList" Name="ExternalSquadListVar2" IsNull="true" />
+		<TriggerVar ID="5006" Type="Power" Name="ExternalPowerVar2" IsNull="true" />
+		<TriggerVar ID="5007" Type="Cost" Name="ExternalCostVar2" IsNull="true" />
+		<TriggerVar ID="5008" Type="Vector" Name="DropoffLoc" IsNull="true" />
+		<TriggerVar ID="5009" Type="VectorList" Name="ExternalLocationListVar2" IsNull="true" />
+		<TriggerVar ID="5010" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
 	</TriggerVars>
 	<Triggers>
 		<Trigger ID="0" Name="START" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="0" Y="86" GroupID="-1" TemplateID="-1">
@@ -2319,6 +2331,19 @@
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
+				<Effect ID="6342" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">5001</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">5002</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">5003</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">5004</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">5005</Input>
+					<Input Name="ExternalPlayer" SigID="6" Optional="true">5000</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">5006</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">5007</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">5008</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">5009</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">5010</Input>
+				</Effect>
 				<Effect ID="552" Type="CopyInt" DBID="98" Version="1" CommentOut="false">
 					<Input Name="IntSource" SigID="1" Optional="false">2337</Input>
 					<Output Name="IntCopy" SigID="2" Optional="false">1937</Output>
@@ -2400,28 +2425,6 @@
 					<Input Name="Squad" SigID="2" Optional="true">76</Input>
 					<Input Name="Object" SigID="4" Optional="true">77</Input>
 					<Output Name="OutputLocation" SigID="3" Optional="false">15</Output>
-				</Effect>
-				<Effect ID="22" Type="Revealer" DBID="285" Version="3" CommentOut="false">
-					<Input Name="Owner" SigID="1" Optional="false">67</Input>
-					<Input Name="Location" SigID="2" Optional="true">15</Input>
-					<Input Name="LocationList" SigID="8" Optional="true">69</Input>
-					<Input Name="LOS" SigID="4" Optional="false">70</Input>
-					<Input Name="Lifespan" SigID="3" Optional="true">71</Input>
-					<Output Name="CreatedRevealer" SigID="5" Optional="true">72</Output>
-					<Output Name="AddToObjectList" SigID="6" Optional="true">73</Output>
-					<Output Name="ClearExisting" SigID="7" Optional="true">74</Output>
-				</Effect>
-				<Effect ID="417" Type="CreateUnit" DBID="154" Version="2" CommentOut="false">
-					<Input Name="ProtoObject" SigID="1" Optional="false">1875</Input>
-					<Input Name="UnitOwner" SigID="2" Optional="false">120</Input>
-					<Input Name="CreateLocation" SigID="3" Optional="false">15</Input>
-					<Input Name="Facing" SigID="10" Optional="true">1878</Input>
-					<Input Name="StartBuilt" SigID="4" Optional="false">1879</Input>
-					<Output Name="CreatedUnit" SigID="5" Optional="true">1880</Output>
-					<Output Name="AddToUnitList" SigID="6" Optional="true">1881</Output>
-					<Output Name="CreatedSquad" SigID="7" Optional="true">1882</Output>
-					<Output Name="AddToSquadList" SigID="8" Optional="true">1883</Output>
-					<Output Name="ClearExisting" SigID="9" Optional="true">1884</Output>
 				</Effect>
 				<Effect ID="1657" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">4855</Input>

@@ -202,4 +202,71 @@
 		</FlashUI>
 		<HPBar>UNSC_Health</HPBar>
 	</Object>
+	<Object name="creep_flood_floodcontrol_01" id="0" dbid="4304">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>creep\flood\base_01\FloodBase_01.vis</Visual>
+		<PhysicsInfo>creep_flood_base_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<DisplayNameID>10038</DisplayNameID>
+		<RolloverTextID>24679</RolloverTextID>
+		<RoleTextID>24679</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>25000</Hitpoints>
+		<CombatValue>20</CombatValue>
+		<LOS>85</LOS>
+		<BuildPoints>0</BuildPoints>
+		<Bounty>14</Bounty>
+		<ObstructionRadiusX>40</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>24</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>17.3999996</SelectedRadiusX>
+		<SelectedRadiusZ>15.6000004</SelectedRadiusZ>
+		<PickRadius>23.2999992</PickRadius>
+		<PickOffset>-1</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<GotoType>Base</GotoType>
+		<ExitFromDirection>1</ExitFromDirection>
+		<Command Type="TrainSquad" Position="0">fld_air_swarm_01</Command>
+		<Command Type="TrainSquad" Position="1">fld_inf_infectedCarrier_01</Command>
+		<Command Type="TrainSquad" Position="2">fld_inf_infectionForm_01</Command>
+		<Command Type="TrainSquad" Position="3">fld_inf_infectionForm_02</Command>
+		<Command Type="TrainSquad" Position="4">fld_inf_rhinodillo_01</Command>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>_Base</ObjectType>
+		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<ObjectType>FloodTrainer</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<Sound Type="Death">play_fx_proj_flood_travel</Sound>
+		<Socket Player="Any">PowerSocketBase</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ObstructsAir</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>KillGarrisoned</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>SelfParkingLot</Flag>
+		<Flag>KillChildObjectsOnDeath</Flag>
+		<Flag>PassiveGarrisoned</Flag>
+		<Flag>TriggersBattleMusicWhenAttacked</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>.</FlashUI>
+		<HPBar>UNSC_Bldg_Health</HPBar>
+	</Object>
 </Objects>

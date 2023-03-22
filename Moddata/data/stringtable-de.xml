@@ -4,6 +4,14 @@
 		<String _locID="1" subtitle="false" category="UI">New Options</String>
 		<String _locID="2" category="UI" subtitle="false">Firefight</String>
 		<String _locID="3" category="UI" subtitle="false">FreeForAll</String>
+		<String _locID="4" category="Skirmish" subtitle="false" Update="true">MEMORIAL BASIN (FFA)</String>
+		<String _locID="5" category="Skirmish" subtitle="false">FLOOD CONTROL</String>
+		<String _locID="6" category="Skirmish" scenario="game mode" subtitle="false" Update="true">A cut flood survival gamemode restored.</String>
+		<String _locID="7" category="Skirmish" subtitle="false">BEASLEY'S PLATEAU (FFA)</String>
+		<String _locID="8" category="Skirmish" subtitle="false">TERMINAL MORAINE (FFA)</String>
+		<String _locID="25565" category="UI" scenario="PlayerName" subtitle="false">Creeps</String>
+		<String _locID="25560" category="UI" scenario="PlayerName" subtitle="false">Creeps</String>
+		<String _locID="25966" category="UI" subtitle="false" scenario="PlayerName">Creeps</String>
 		<String _locID="100" category="Code" subtitle="false">BESTÄTIGEN</String>
 		<String _locID="101" category="Code" subtitle="false">ABBRECHEN</String>
 		<String _locID="102" category="Code" subtitle="false">AUSWÄHLEN</String>
@@ -3802,12 +3810,10 @@ des Echo-Teams</String>
 		<String _locID="25557" category="UI" scenario="MPPartyRoomHelp" subtitle="false" _mouseKeyboard="26251">Warten auf den Beitritt anderer Spieler oder $$A$$ drücken, um KI-Spieler hinzuzufügen.</String>
 		<String _locID="25558" category="UI" scenario="MPPartyRoom" subtitle="false">XBOX LIVE</String>
 		<String _locID="25559" category="UI" scenario="MPPartyRoom" subtitle="false">SYSTEM LINK</String>
-		<String _locID="25560" category="UI" scenario="PlayerName" subtitle="false">Flood</String>
 		<String _locID="25561" category="UI" scenario="PlayerName" subtitle="false">Arcadia</String>
 		<String _locID="25562" category="UI" scenario="PlayerName" subtitle="false">Team Rot</String>
 		<String _locID="25563" category="UI" scenario="PlayerName" subtitle="false">Unbekannt</String>
 		<String _locID="25564" category="UI" scenario="PlayerName" subtitle="false">Verlorener Warthog</String>
-		<String _locID="25565" category="UI" scenario="PlayerName" subtitle="false">Blutsväter</String>
 		<String _locID="25566" category="UI" subtitle="false">Sie sind nicht mit Ihrem Spielerprofil bei Xbox Live angemeldet.</String>
 		<String _locID="25567" category="UI" scenario="Note: Do not localize this string. It needs to be ASCII" subtitle="false">Spieler %1!d!</String>
 		<String _locID="25568" category="UI" scenario="MPGameSetup" subtitle="false">Spielschwierigkeit</String>
@@ -4193,7 +4199,6 @@ des Echo-Teams</String>
 		<String _locID="25959" category="UI" subtitle="false" scenario="Options and extras menu">SPEICHERGERÄT</String>
 		<String _locID="25963" category="UI" subtitle="false" scenario="Mission select screen">Wirklich diese Mission starten? Der vorhandene Speicherstand geht dabei verloren.</String>
 		<String _locID="25964" category="UI" scenario="Postgame confirmation" subtitle="false">Möchten Sie diesen Bildschirm wirklich verlassen?</String>
-		<String _locID="25966" category="UI" subtitle="false" scenario="PlayerName">Rebellen</String>
 		<String _locID="25967" category="Squads" subtitle="false">Super-Scarab</String>
 		<String _locID="25968" category="UI" subtitle="false">Nicht vergessen: Mit $$LB$$ wählen Sie Ihre gesamten Einheiten aus.</String>
 		<String _locID="25969" category="UI" subtitle="false">Nicht vergessen: Mit $$RB$$ wählen Sie Ihre Einheiten auf dem Bildschirm aus.</String>

@@ -2871,6 +2871,7 @@
 		<Command Type="BuildOther" Position="0" AutoClose="true">creep_forerunner_base_02</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">creep_forerunner_base_03</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">creep_flood_base_01</Command>
+		<Command Type="BuildOther" Position="0" AutoClose="true">creep_flood_floodcontrol_01</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">ffa_starterbase_01</Command>
 		<ObjectType>PowerSocketBase</ObjectType>
 		<ObjectType>_Settlement</ObjectType>
