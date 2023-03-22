@@ -51,9 +51,9 @@
 		<NPC />
 	</GameMode>
 	<GameMode>
-		<Name>Firefight</Name>
-		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
-		<PlayerScript>DeathMatchPlayer.triggerscript</PlayerScript>
+		<Name>FloodControl</Name>
+		<WorldScript>floodcontrol.triggerscript</WorldScript>
+		<PlayerScript>floodcontrolPlayer.triggerscript</PlayerScript>
 		<Tech />
 		<DisplayNameID>5</DisplayNameID>
 		<DescriptionID>6</DescriptionID>

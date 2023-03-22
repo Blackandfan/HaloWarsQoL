@@ -5,8 +5,8 @@
 		<String _locID="2" category="UI" subtitle="false">Firefight</String>
 		<String _locID="3" category="UI" subtitle="false">FreeForAll</String>
 		<String _locID="4" category="Skirmish" subtitle="false" Update="true">MEMORIAL BASIN (FFA)</String>
-		<String _locID="5" category="Skirmish" subtitle="false">FIREFIGHT</String>
-		<String _locID="6" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Wave based defensive gamemode.</String>
+		<String _locID="5" category="Skirmish" subtitle="false">FLOOD CONTROL</String>
+		<String _locID="6" category="Skirmish" scenario="game mode" subtitle="false" Update="true">A cut flood survival gamemode restored.</String>
 		<String _locID="7" category="Skirmish" subtitle="false">BEASLEY'S PLATEAU (FFA)</String>
 		<String _locID="8" category="Skirmish" subtitle="false">TERMINAL MORAINE (FFA)</String>
 		<String _locID="100" category="Code" subtitle="false">CONFIRM</String>
