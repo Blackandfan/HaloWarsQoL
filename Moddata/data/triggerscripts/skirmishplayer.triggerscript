@@ -251,6 +251,37 @@
 		<TriggerVar ID="629" Type="Trigger" Name="TriggerVar44" IsNull="false">74</TriggerVar>
 		<TriggerVar ID="630" Type="Trigger" Name="TriggerVar45" IsNull="false">74</TriggerVar>
 		<TriggerVar ID="631" Type="Trigger" Name="TriggerVar46" IsNull="false">57</TriggerVar>
+
+		<TriggerVar ID="632" Type="String" Name="" IsNull="false">controls\DeleteAlliedAIUnits.triggerscript</TriggerVar>
+		<TriggerVar ID="633" Type="Unit" Name="ExternalUnitVar2" IsNull="true" />
+		<TriggerVar ID="634" Type="UnitList" Name="ExternalUnitListVar2" IsNull="true" />
+		<TriggerVar ID="635" Type="Squad" Name="ExternalSquadVar2" IsNull="true" />
+		<TriggerVar ID="636" Type="SquadList" Name="ExternalSquadListVar2" IsNull="true" />
+		<TriggerVar ID="637" Type="Power" Name="ExternalPowerVar2" IsNull="true" />
+		<TriggerVar ID="638" Type="Cost" Name="ExternalCostVar2" IsNull="true" />
+		<TriggerVar ID="639" Type="Vector" Name="DropoffLoc" IsNull="true" />
+		<TriggerVar ID="640" Type="VectorList" Name="ExternalLocationListVar2" IsNull="true" />
+		<TriggerVar ID="641" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
+		<TriggerVar ID="642" Type="String" Name="" IsNull="false">controls\EjectSpartan.triggerscript</TriggerVar>
+		<TriggerVar ID="643" Type="Unit" Name="ExternalUnitVar2" IsNull="true" />
+		<TriggerVar ID="644" Type="UnitList" Name="ExternalUnitListVar2" IsNull="true" />
+		<TriggerVar ID="645" Type="Squad" Name="ExternalSquadVar2" IsNull="true" />
+		<TriggerVar ID="646" Type="SquadList" Name="ExternalSquadListVar2" IsNull="true" />
+		<TriggerVar ID="647" Type="Power" Name="ExternalPowerVar2" IsNull="true" />
+		<TriggerVar ID="648" Type="Cost" Name="ExternalCostVar2" IsNull="true" />
+		<TriggerVar ID="649" Type="Vector" Name="DropoffLoc" IsNull="true" />
+		<TriggerVar ID="650" Type="VectorList" Name="ExternalLocationListVar2" IsNull="true" />
+		<TriggerVar ID="651" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
+		<TriggerVar ID="652" Type="String" Name="" IsNull="false">controls\SquadModes.triggerscript</TriggerVar>
+		<TriggerVar ID="653" Type="Unit" Name="ExternalUnitVar2" IsNull="true" />
+		<TriggerVar ID="654" Type="UnitList" Name="ExternalUnitListVar2" IsNull="true" />
+		<TriggerVar ID="655" Type="Squad" Name="ExternalSquadVar2" IsNull="true" />
+		<TriggerVar ID="656" Type="SquadList" Name="ExternalSquadListVar2" IsNull="true" />
+		<TriggerVar ID="657" Type="Power" Name="ExternalPowerVar2" IsNull="true" />
+		<TriggerVar ID="658" Type="Cost" Name="ExternalCostVar2" IsNull="true" />
+		<TriggerVar ID="659" Type="Vector" Name="DropoffLoc" IsNull="true" />
+		<TriggerVar ID="660" Type="VectorList" Name="ExternalLocationListVar2" IsNull="true" />
+		<TriggerVar ID="661" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
 	</TriggerVars>
 	<Triggers>
 		<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="345" Y="333" GroupID="-1" TemplateID="-1">
@@ -298,6 +329,45 @@
 				<Effect ID="149" Type="CopyBool" DBID="102" Version="1" CommentOut="false">
 					<Input Name="BoolSource" SigID="1" Optional="false">589</Input>
 					<Output Name="BoolCopy" SigID="2" Optional="false">577</Output>
+				</Effect>
+				<Effect ID="632" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">632</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">633</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">634</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">635</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">636</Input>
+					<Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">637</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">638</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">639</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">640</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">641</Input>
+				</Effect>
+				<Effect ID="642" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">642</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">643</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">644</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">645</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">646</Input>
+					<Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">647</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">648</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">649</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">650</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">651</Input>
+				</Effect>
+				<Effect ID="652" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">652</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">653</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">654</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">655</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">656</Input>
+					<Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">657</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">658</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">659</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">660</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">661</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
