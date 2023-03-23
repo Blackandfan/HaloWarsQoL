@@ -148,47 +148,47 @@
 					<item name="Keybind 17" value="17" keybindName="Flare" />
 				</list>
 			</option>
-			<option label="$$26107$$Text Chat Title" name="KeybindSettings" description="$$26324$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26107$$Text Chat Title" name="KeybindSettings" description="$$26324$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26481$$Keybind 18" value="18" keybindName="TextChat" />
 				</list>
 			</option>
-			<option label="$$26315$$Keybind19" name="KeybindSettings" description="$$26318$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26315$$Keybind19" name="KeybindSettings" description="$$26318$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26666$$Keybind 19" value="19" keybindName="CameraRotation" />
 				</list>
 			</option>
-			<option label="$$26299$$Keybind20" name="KeybindSettings" description="$$26319$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26299$$Keybind20" name="KeybindSettings" description="$$26319$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26550$$Keybind 20" value="20" keybindName="CameraRotationLeftAlt" />
 				</list>
 			</option>
-			<option label="$$26301$$Keybind21" name="KeybindSettings" description="$$26320$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26301$$Keybind21" name="KeybindSettings" description="$$26320$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26551$$Keybind 21" value="21" keybindName="CameraRotationRightAlt" />
 				</list>
 			</option>
-			<option label="$$26303$$Keybind22" name="KeybindSettings" description="$$26321$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26303$$Keybind22" name="KeybindSettings" description="$$26321$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26667$$Keybind 22" value="22" keybindName="CameraZoom" />
 				</list>
 			</option>
-			<option label="$$26305$$Keybind23" name="KeybindSettings" description="$$26322$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26305$$Keybind23" name="KeybindSettings" description="$$26322$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26302$$" value="23" keybindName="CameraZoomInAlt" />
 				</list>
 			</option>
-			<option label="$$26306$$Keybind24" name="KeybindSettings" description="$$26323$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26306$$Keybind24" name="KeybindSettings" description="$$26323$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26300$$" value="24" keybindName="CameraZoomOutAlt" />
 				</list>
 			</option>
-			<option label="$$26307$$Keybind25" name="KeybindSettings" description="$$26324$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26307$$Keybind25" name="KeybindSettings" description="$$26324$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26308$$Keybind 25" value="25" keybindName="FasterCameraPanning" />
 				</list>
 			</option>
-			<option label="$$26309$$Keybind26" name="KeybindSettings" description="$$26325$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26309$$Keybind26" name="KeybindSettings" description="$$26325$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26310$$Keybind 26" value="26" keybindName="MultiUnitSelection" />
 				</list>
@@ -198,27 +198,27 @@
 					<item name="" />
 				</list>
 			</option>
-			<option label="$$26312$$Keybind28" name="KeybindSettings" description="$$26327$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26312$$Keybind28" name="KeybindSettings" description="$$26327$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26640$$" value="28" keybindName="MakeControlGroup" />
 				</list>
 			</option>
-			<option label="$$26313$$Keybind29" name="KeybindSettings" description="$$26328$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26313$$Keybind29" name="KeybindSettings" description="$$26328$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26641$$" value="29" keybindName="AddToControlGroup" />
 				</list>
 			</option>
-			<option label="$$26311$$Keybind27" name="KeybindSettings" description="$$26326$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26311$$Keybind27" name="KeybindSettings" description="$$26326$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26642$$" value="27" keybindName="SelectControlGroup" />
 				</list>
 			</option>
-			<option label="$$26331$$Keybind31" name="KeybindSettings" description="$$26332$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26331$$Keybind31" name="KeybindSettings" description="$$26332$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26644$$" value="31" keybindName="AddAdditionalToControlGroup" />
 				</list>
 			</option>
-			<option label="$$26314$$Keybind30" name="KeybindSettings" description="$$26329$$Default description" pcsetting="true" keybind="true" keyboardOnly="true">
+			<option label="$$26314$$Keybind30" name="KeybindSettings" description="$$26329$$Default description" pcsetting="true" keyboardOnly="true">
 				<list>
 					<item name="$$26643$$" value="30" keybindName="AddAdditionalToControlGroup" />
 				</list>
@@ -233,7 +233,7 @@
 					<item name="Keybind 36" value="36" keybindName="RadialMenuUse1" />
 				</list>
 			</option>
-			<option label="$$26698$$Keybind37" name="KeybindSettings" description="$$26699$$Default description" pcsetting="true" userinput="true" keybind="true" keyboardOnly="true">
+			<option label="$$26698$$Keybind37" name="KeybindSettings" description="$$26699$$Default description" pcsetting="true" userinput="true" keyboardOnly="true">
 				<list>
 					<item name="Keybind 37" value="37" keybindName="RadialMenuCancel1" />
 				</list>
@@ -243,7 +243,7 @@
 					<item name="Keybind 38" value="38" keybindName="RadialMenuUse2" />
 				</list>
 			</option>
-			<option label="$$26702$$Keybind39" name="KeybindSettings" description="$$26703$$Default description" pcsetting="true" userinput="true" keybind="true" keyboardOnly="true">
+			<option label="$$26702$$Keybind39" name="KeybindSettings" description="$$26703$$Default description" pcsetting="true" userinput="true" keyboardOnly="true">
 				<list>
 					<item name="Keybind 39" value="39" keybindName="RadialMenuCancel2" />
 				</list>
@@ -253,7 +253,7 @@
 					<item name="Keybind 40" value="40" keybindName="RadialMenuUse3" />
 				</list>
 			</option>
-			<option label="$$26706$$Keybind41" name="KeybindSettings" description="$$26707$$Default description" pcsetting="true" userinput="true" keybind="true" keyboardOnly="true">
+			<option label="$$26706$$Keybind41" name="KeybindSettings" description="$$26707$$Default description" pcsetting="true" userinput="true" keyboardOnly="true">
 				<list>
 					<item name="Keybind 41" value="41" keybindName="RadialMenuCancel3" />
 				</list>
@@ -263,7 +263,7 @@
 					<item name="Keybind 42" value="42" keybindName="RadialMenuUse4" />
 				</list>
 			</option>
-			<option label="$$26710$$Keybind43" name="KeybindSettings" description="$$26711$$Default description" pcsetting="true" userinput="true" keybind="true" keyboardOnly="true">
+			<option label="$$26710$$Keybind43" name="KeybindSettings" description="$$26711$$Default description" pcsetting="true" userinput="true" keyboardOnly="true">
 				<list>
 					<item name="Keybind 43" value="43" keybindName="RadialMenuCancel4" />
 				</list>
@@ -273,7 +273,7 @@
 					<item name="Keybind 44" value="44" keybindName="RadialMenuUse5" />
 				</list>
 			</option>
-			<option label="$$26714$$Keybind45" name="KeybindSettings" description="$$26715$$Default description" pcsetting="true" userinput="true" keybind="true" keyboardOnly="true">
+			<option label="$$26714$$Keybind45" name="KeybindSettings" description="$$26715$$Default description" pcsetting="true" userinput="true" keyboardOnly="true">
 				<list>
 					<item name="Keybind 45" value="45" keybindName="RadialMenuCancel5" />
 				</list>
@@ -283,7 +283,7 @@
 					<item name="Keybind 46" value="46" keybindName="RadialMenuUse6" />
 				</list>
 			</option>
-			<option label="$$26718$$Keybind47" name="KeybindSettings" description="$$26719$$Default description" pcsetting="true" userinput="true" keybind="true" keyboardOnly="true">
+			<option label="$$26718$$Keybind47" name="KeybindSettings" description="$$26719$$Default description" pcsetting="true" userinput="true" keyboardOnly="true">
 				<list>
 					<item name="Keybind 47" value="47" keybindName="RadialMenuCancel6" />
 				</list>
@@ -293,7 +293,7 @@
 					<item name="Keybind 48" value="48" keybindName="RadialMenuUse7" />
 				</list>
 			</option>
-			<option label="$$26722$$Keybind49" name="KeybindSettings" description="$$26723$$Default description" pcsetting="true" userinput="true" keybind="true" keyboardOnly="true">
+			<option label="$$26722$$Keybind49" name="KeybindSettings" description="$$26723$$Default description" pcsetting="true" userinput="true" keyboardOnly="true">
 				<list>
 					<item name="Keybind 49" value="49" keybindName="RadialMenuCancel7" />
 				</list>
@@ -303,7 +303,7 @@
 					<item name="Keybind 50" value="50" keybindName="RadialMenuUse8" />
 				</list>
 			</option>
-			<option label="$$26726$$Keybind51" name="KeybindSettings" description="$$26727$$Default description" pcsetting="true" userinput="true" keybind="true" keyboardOnly="true">
+			<option label="$$26726$$Keybind51" name="KeybindSettings" description="$$26727$$Default description" pcsetting="true" userinput="true" keyboardOnly="true">
 				<list>
 					<item name="Keybind 51" value="51" keybindName="RadialMenuCancel8" />
 				</list>
