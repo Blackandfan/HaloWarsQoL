@@ -301,6 +301,12 @@
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>FlashBangAttackAction</Action>
+			<TargetType>CanBeFlashBanged</TargetType>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>FlamethrowerAttackAction1</Action>

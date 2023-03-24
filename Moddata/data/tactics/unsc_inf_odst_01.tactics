@@ -255,6 +255,16 @@
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ShotgunAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RocketAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Resource_Supplies</TargetType>
 			<Action>GatherSupplies</Action>

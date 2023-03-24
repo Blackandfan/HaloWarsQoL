@@ -137,7 +137,6 @@
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Action>OverburnAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

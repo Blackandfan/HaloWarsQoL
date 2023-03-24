@@ -331,17 +331,18 @@
 			<Key>Precise</Key>
 		</Function>
 		<Function name="GotoAlert">
-			<Key>DpadRight</Key>
-			<Key>Precise</Key>
+			<Key>DpadDown</Key>
+			<Key>DoubleClick</Key>
 		</Function>
 		<Function name="SubSelectNext">
 			<Key>TriggerRight</Key>
 		</Function>
 		<Function name="ScreenSelect">
-			<Key>ButtonShoulderRight</Key>
+			<Key>ButtonShoulderLeft</Key>
 		</Function>
 		<Function name="GlobalSelect">
 			<Key>ButtonShoulderLeft</Key>
+			<Key>DoubleClick</Key>
 		</Function>
 		<Function name="SetRally">
 			<Key>ButtonThumbLeft</Key>

@@ -255,6 +255,17 @@
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PlasmaRifleAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
 			<Relation>Self</Relation>
 			<TargetType>HotDropPickup</TargetType>
 			<Action>GarrisonHotDrop</Action>

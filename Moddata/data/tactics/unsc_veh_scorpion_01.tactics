@@ -161,7 +161,6 @@
 			<Ability>Command</Ability>
 			<TargetType>NonFlying</TargetType>
 			<Action>specialAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

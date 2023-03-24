@@ -238,6 +238,17 @@
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>NeedlerAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Garrison</TargetType>
 			<Action>Garrison</Action>

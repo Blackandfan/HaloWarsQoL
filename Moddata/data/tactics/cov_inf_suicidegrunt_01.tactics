@@ -264,6 +264,11 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
+			<Action>PlasmaPistolAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
 			<Action>InCoverPlasmaPistolAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>

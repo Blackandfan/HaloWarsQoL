@@ -9,6 +9,11 @@
 		<String _locID="6" category="Skirmish" scenario="game mode" subtitle="false" Update="true">A cut flood survival gamemode restored.</String>
 		<String _locID="7" category="Skirmish" subtitle="false">BEASLEY'S PLATEAU (FFA)</String>
 		<String _locID="8" category="Skirmish" subtitle="false">TERMINAL MORAINE (FFA)</String>
+		<String _locID="9" category="Leaders" subtitle="false">Free For All</String>
+		<String _locID="25356" category="UI" scenario="GameMenu" subtitle="false">LOCAL, DOUBLECLICK GLOBAL</String>
+		<String _locID="25357" category="UI" scenario="GameMenu" subtitle="false">ATTACKMOVE</String>
+		<String _locID="25732" category="UI" scenario="UIControllerScreen" subtitle="false">GUARD</String>
+		<String _locID="25733" category="UI" scenario="UIControllerScreen" subtitle="false">ARMIES, DOUBLECLICK ALERTS</String>
 		<String _locID="25565" category="UI" scenario="PlayerName" subtitle="false">Creeps</String>
 		<String _locID="25560" category="UI" scenario="PlayerName" subtitle="false">Creeps</String>
 		<String _locID="25966" category="UI" subtitle="false" scenario="PlayerName">Creeps</String>
@@ -3619,8 +3624,6 @@
 		<String _locID="25353" category="UI" scenario="User" subtitle="false">MENÚ DE LÍDER</String>
 		<String _locID="25354" category="UI" scenario="User" subtitle="false">SELECCIONAR PODER</String>
 		<String _locID="25358" category="UI" scenario="SkirmishScreen" subtitle="false">ABRIR</String>
-		<String _locID="25356" category="UI" scenario="GameMenu" subtitle="false">GLOBAL</String>
-		<String _locID="25357" category="UI" scenario="GameMenu" subtitle="false">LOCAL</String>
 		<String _locID="25359" category="UI" scenario="GameMenu" subtitle="false">CÁMARA</String>
 		<String _locID="25360" category="UI" scenario="GameMenu" subtitle="false">HABILIDAD</String>
 		<String _locID="25361" category="UI" scenario="GameMenu" subtitle="false">CANCELAR</String>
@@ -3976,8 +3979,6 @@
 		<String _locID="25729" category="UI" scenario="UIControllerScreen" subtitle="false">GIRAR CÁMARA</String>
 		<String _locID="25730" category="UI" scenario="UIControllerScreen" subtitle="false">OBJETIVOS</String>
 		<String _locID="25731" category="UI" scenario="UIControllerScreen" subtitle="false">PAUSAR JUEGO</String>
-		<String _locID="25732" category="UI" scenario="UIControllerScreen" subtitle="false">ALERTAS</String>
-		<String _locID="25733" category="UI" scenario="UIControllerScreen" subtitle="false">EJÉRCITOS</String>
 		<String _locID="25734" category="UI" scenario="UIControllerScreen" subtitle="false">PODERES/HÉROE COVENANT</String>
 		<String _locID="25735" category="UI" scenario="UIControllerScreen" subtitle="false">BASES</String>
 		<String _locID="25736" category="UI" scenario="UIControllerScreen" subtitle="false">DESPLAZAMIENTO RÁPIDO</String>

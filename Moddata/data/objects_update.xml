@@ -54,6 +54,11 @@
 		<ObjectType>Icon</ObjectType>
 		<ObjectType>_Icon</ObjectType>
 	</Object>
+	<Object name="sys_marker_attackmove_01" is="0" dbid="11">
+		<Visual>system\marker\attackmove_01\attackmove_01.vis</Visual>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
 	<Object name="ffa_starterbase_01" id="0" dbid="2907">
 		<ObjectType>CreepBaseTarget</ObjectType>
 		<ObjectClass>Building</ObjectClass>
@@ -136,71 +141,6 @@
 		<HPBar offset="0,23,0">UNSC_Bldg_HealthCommand</HPBar>
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
-	</Object>
-	<Object name="ffa_startunit_01" id="0" dbid="3008">
-		<Ability>FreeForAll.triggerscript</Ability>
-		<PhysicsInfo>elephant</PhysicsInfo>
-		<ObjectClass>Squad</ObjectClass>
-		<TrainerType>3</TrainerType>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
-		<MinimapIcon size="8">Square</MinimapIcon>
-		<DisplayNameID>23668</DisplayNameID>
-		<RolloverTextID>23669</RolloverTextID>
-		<MovementType>Land</MovementType>
-		<Velocity>9</Velocity>
-		<TurnRate>60</TurnRate>
-		<Hitpoints>10000</Hitpoints>
-		<LOS>55</LOS>
-		<CombatValue>16</CombatValue>
-		<Bounty>12</Bounty>
-		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
-		<Tactics>unsc_veh_elephant_01.tactics</Tactics>
-		<RepairPoints>300</RepairPoints>
-		<ObstructionRadiusX>8</ObstructionRadiusX>
-		<ObstructionRadiusY>5</ObstructionRadiusY>
-		<ObstructionRadiusZ>8</ObstructionRadiusZ>
-		<PickRadius>7</PickRadius>
-		<PickOffset>3</PickOffset>
-		<PickPriority>Unit</PickPriority>
-		<SelectType>Unit</SelectType>
-		<GotoType>Vehicle</GotoType>
-		<SelectedRadiusX>9</SelectedRadiusX>
-		<SelectedRadiusZ>9</SelectedRadiusZ>
-		<SurfaceType>Metal</SurfaceType>
-		<RallyPoint>Military</RallyPoint>
-		<Command Type="Unload" Position="0" />
-		<AbilityCommand>cpgnUnload</AbilityCommand>
-		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
-		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
-		<ExitFromDirection>2</ExitFromDirection>
-		<DamageType direction="Full">Heavy</DamageType>
-		<ObjectType>KeepsInGame</ObjectType>
-		<ObjectType>Military</ObjectType>
-		<ObjectType>EmpEffectNormal</ObjectType>
-		<ObjectType>Mechanical</ObjectType>
-		<ObjectType>ForerunnerStealPower</ObjectType>
-		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Unsc</ObjectType>
-		<ObjectType>GroundVehicle</ObjectType>
-		<ObjectType>Unit</ObjectType>
-		<ObjectType>CyclopsRepairable</ObjectType>
-		<ObjectType>SpartanBoard</ObjectType>
-		<ObjectType>CanCryo</ObjectType>
-		<ObjectType>CanBeProtected</ObjectType>
-		<ObjectType>TowTruck</ObjectType>
-		<Flag>KBAware</Flag>
-		<Flag>Obscurable</Flag>
-		<Flag>DontRotateObstruction</Flag>
-		<Flag>OrientUnitWithGround</Flag>
-		<Flag>HasHPBar</Flag>
-		<Flag>ShowRange</Flag>
-		<Flag>LockdownMenu</Flag>
-		<Flag>NonRotatable</Flag>
-		<FlashUI>
-			<CircleMenuFrameIDNormal>24</CircleMenuFrameIDNormal>
-			<CircleMenuFrameIDHighlight>25</CircleMenuFrameIDHighlight>
-		</FlashUI>
-		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="creep_flood_floodcontrol_01" id="0" dbid="4304">
 		<ObjectClass>Building</ObjectClass>
