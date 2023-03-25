@@ -10,10 +10,11 @@
 		<String _locID="7" category="Skirmish" subtitle="false">BEASLEY'S PLATEAU (FFA)</String>
 		<String _locID="8" category="Skirmish" subtitle="false">TERMINAL MORAINE (FFA)</String>
 		<String _locID="9" category="Leaders" subtitle="false">Free For All</String>
-		<String _locID="25356" category="UI" scenario="GameMenu" subtitle="false">LOCAL, DOUBLECLICK GLOBAL</String>
-		<String _locID="25357" category="UI" scenario="GameMenu" subtitle="false">ATTACKMOVE</String>
-		<String _locID="25732" category="UI" scenario="UIControllerScreen" subtitle="false">GUARD</String>
-		<String _locID="25733" category="UI" scenario="UIControllerScreen" subtitle="false">ARMIES, DOUBLECLICK ALERTS</String>
+		<String _locID="25356" category="UI" scenario="GameMenu" subtitle="false">LOCAL, DOUBLECLICK BASES</String>
+		<String _locID="25357" category="UI" scenario="GameMenu" subtitle="false">GLOBAL, DOUBLECLICK ALERTS</String>
+		<String _locID="25732" category="UI" scenario="UIControllerScreen" subtitle="false">ATTACKMOVE</String>
+		<String _locID="25733" category="UI" scenario="UIControllerScreen" subtitle="false">ARMIES</String>
+		<String _locID="25735" category="UI" scenario="UIControllerScreen" subtitle="false">GUARD</String>
 		<String _locID="25565" category="UI" scenario="PlayerName" subtitle="false">Creeps</String>
 		<String _locID="25560" category="UI" scenario="PlayerName" subtitle="false">Creeps</String>
 		<String _locID="25966" category="UI" subtitle="false" scenario="PlayerName">Creeps</String>
@@ -3980,7 +3981,6 @@
 		<String _locID="25730" category="UI" scenario="UIControllerScreen" subtitle="false">OBJETIVOS</String>
 		<String _locID="25731" category="UI" scenario="UIControllerScreen" subtitle="false">PAUSAR JUEGO</String>
 		<String _locID="25734" category="UI" scenario="UIControllerScreen" subtitle="false">PODERES/HÉROE COVENANT</String>
-		<String _locID="25735" category="UI" scenario="UIControllerScreen" subtitle="false">BASES</String>
 		<String _locID="25736" category="UI" scenario="UIControllerScreen" subtitle="false">DESPLAZAMIENTO RÁPIDO</String>
 		<String _locID="25737" category="UI" scenario="UIControllerScreen" subtitle="false">SUBSELECCIONAR UNIDADES</String>
 		<String _locID="25738" category="Campaign" scenario="Tutorial" subtitle="true">Recuerda: si no sabes cuál es el siguiente paso, siempre puedes ver tus objetivos pulsando el botón $$BACK$$.</String>

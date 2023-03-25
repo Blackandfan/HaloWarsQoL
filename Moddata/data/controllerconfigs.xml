@@ -323,15 +323,15 @@
 			<Key>Precise</Key>
 		</Function>
 		<Function name="GotoBase">
-			<Key>DpadLeft</Key>
-			<Key>Precise</Key>
+			<Key>ButtonShoulderLeft</Key>
+			<Key>DoubleClick</Key>
 		</Function>
 		<Function name="GotoArmy">
 			<Key>DpadDown</Key>
 			<Key>Precise</Key>
 		</Function>
 		<Function name="GotoAlert">
-			<Key>DpadDown</Key>
+			<Key>ButtonShoulderRight</Key>
 			<Key>DoubleClick</Key>
 		</Function>
 		<Function name="SubSelectNext">
@@ -341,8 +341,7 @@
 			<Key>ButtonShoulderLeft</Key>
 		</Function>
 		<Function name="GlobalSelect">
-			<Key>ButtonShoulderLeft</Key>
-			<Key>DoubleClick</Key>
+			<Key>ButtonShoulderRight</Key>
 		</Function>
 		<Function name="SetRally">
 			<Key>ButtonThumbLeft</Key>

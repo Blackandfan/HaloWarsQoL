@@ -4,7 +4,7 @@
   <TriggerVars>
     <TriggerVar ID="0" Type="Player" Name="NewPlayer0" IsNull="false" />
     <TriggerVar ID="4" Type="ControlType" Name="Keyboard" IsNull="false">KeyO</TriggerVar>
-    <TriggerVar ID="7" Type="ControlType" Name="Controller" IsNull="false">DpadRight</TriggerVar>
+    <TriggerVar ID="7" Type="ControlType" Name="Controller" IsNull="false">DpadLeft</TriggerVar>
     <TriggerVar ID="8" Type="Bool" Name="NewBool8" IsNull="false">False</TriggerVar>
     <TriggerVar ID="9" Type="EntityFilterSet" Name="NewEntityFilterSet9" IsNull="false" />
     <TriggerVar ID="10" Type="SquadList" Name="NewSquadList10" IsNull="false" />
@@ -19,7 +19,7 @@
     <TriggerVar ID="28" Type="EntityFilterSet" Name="NewEntityFilterSet9" IsNull="false" />
     <TriggerVar ID="29" Type="Bool" Name="NewBool8" IsNull="false">True</TriggerVar>
     <TriggerVar ID="30" Type="Bool" Name="NewBool8" IsNull="false">False</TriggerVar>
-    <TriggerVar ID="31" Type="ControlType" Name="Controller" IsNull="false">ButtonShoulderRight</TriggerVar>
+    <TriggerVar ID="31" Type="ControlType" Name="Controller" IsNull="false">DpadRight</TriggerVar>
     <TriggerVar ID="32" Type="ControlType" Name="Keyboard" IsNull="false">KeyK</TriggerVar>
     <TriggerVar ID="33" Type="Bool" Name="NewBool8" IsNull="false">True</TriggerVar>
     <TriggerVar ID="35" Type="SquadList" Name="NewSquadList10" IsNull="false" />
