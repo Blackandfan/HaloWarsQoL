@@ -720,9 +720,6 @@
 	<Icon type="uniticon" name="turret_needler" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_turret_needler" owner="cov_turret_upgradeAA">-1</Icon>
 	<Icon type="uniticon" name="turret_plasmaMortar" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_turret_plasmaMortar" owner="cov_turret_upgradeAI">-1</Icon>
 	<Icon type="uniticon" name="turret_fuelRod" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_turret_fuelRod" owner="cov_turret_upgradeAV">-1</Icon>
-	<Icon type="uniticon" name="covbuilder" texture="art\ui\flash\shared\textures\covenant\icons\bldg\cov_bldg_builder_01" owner="cov_bldg_builder_01">-1</Icon>
-	<Icon type="uniticon" name="covbuilder" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_base_upgrade1" owner="cov_bldg_builder_02">-1</Icon>
-	<Icon type="uniticon" name="covbuilder" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_base_upgrade2" owner="cov_bldg_builder_03">-1</Icon>
 	<Icon type="uniticon" name="covbuilder" texture="art\ui\flash\shared\textures\covenant\icons\bldg\cov_bldg_builder_01" owner="cov_bldg_builder_04">-1</Icon>
 	<Icon type="uniticon" name="covbuilder" texture="art\ui\flash\shared\textures\covenant\icons\bldg\cov_bldg_builder_01" owner="cov_bldg_builder_05">-1</Icon>
 	<Icon type="uniticon" name="covbuilder" texture="art\ui\flash\shared\textures\covenant\icons\bldg\cov_bldg_builder_01" owner="cov_bldg_builder_06">-1</Icon>
@@ -1060,4 +1057,8 @@
 	<Icon type="techicon" name="unsc_bldg_turretAI" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_bldg_turretAI" owner="unsc_turret_upgradeAI">-1</Icon>
 	<Icon type="techicon" name="unsc_bldg_turretAA" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_bldg_turretAA" owner="unsc_turret_upgradeAA">-1</Icon>
 	<Icon type="techicon" name="unsc_bldg_turretAV" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_bldg_turretAV" owner="unsc_turret_upgradeAV">-1</Icon>
+	<Icon type="miscicon" name="reversehotdrop" texture="art\ui\flash\shared\textures\covenant\icons\power\cov_leaderRecall" owner="ReverseHotDrop">-1</Icon>
+	<Icon type="uniticon" name="covbuilder" texture="art\ui\flash\shared\textures\covenant\icons\bldg\cov_bldg_builder_01" owner="cov_bldg_builder_01">-1</Icon>
+	<Icon type="uniticon" name="covbuilder" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_base_upgrade1" owner="cov_bldg_builder_02">-1</Icon>
+	<Icon type="uniticon" name="covbuilder" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_base_upgrade2" owner="cov_bldg_builder_03">-1</Icon>
 </FlashMovieDefinition>

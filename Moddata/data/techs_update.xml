@@ -357,18 +357,6 @@
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<Effects>
-			<Effect type="TransformProtoUnit" FromType="ffa_startunit_01" ToType="cov_veh_ghost_01" />
-			<Effect type="TransformProtoSquad" FromType="ffa_startunit_01" ToType="cov_veh_ghost_01" />
-			<Effect type="TransformProtoUnit" FromType="ffa_starterbase_01" ToType="cov_bldg_builder_02" />
-		</Effects>
-	</Tech>
-	<Tech name="FFA_converttocovenantbrute" type="Normal">
-		<DBID>1915</DBID>
-		<Status>OBTAINABLE</Status>
-		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<Effects>
-			<Effect type="TransformProtoUnit" FromType="ffa_startunit_01" ToType="cov_veh_bruteChopper_01" />
-			<Effect type="TransformProtoSquad" FromType="ffa_startunit_01" ToType="cov_veh_bruteChopper_01" />
 			<Effect type="TransformProtoUnit" FromType="ffa_starterbase_01" ToType="cov_bldg_builder_02" />
 		</Effects>
 	</Tech>
@@ -378,8 +366,18 @@
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<Effects>
 			<Effect type="TransformProtoUnit" FromType="ffa_starterbase_01" ToType="unsc_bldg_command_02" />
-			<Effect type="TransformProtoUnit" FromType="ffa_startunit_01" ToType="unsc_veh_warthog_01" />
-			<Effect type="TransformProtoSquad" FromType="ffa_startunit_01" ToType="unsc_veh_warthog_01" />
+			<Effect type="GodPower" amount="1">UnscLeaderRepair</Effect>
+			<Effect type="GodPower" amount="1">UnscLeaderDisruption</Effect>
+			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
+			<Effect type="GodPower" amount="1">UnscCivTransport</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="FFA_converttounsccutter" type="Normal">
+		<DBID>1915</DBID>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Effects>
+			<Effect type="TransformProtoUnit" FromType="ffa_starterbase_01" ToType="unsc_bldg_command_03" />
 			<Effect type="GodPower" amount="1">UnscLeaderRepair</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderDisruption</Effect>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>

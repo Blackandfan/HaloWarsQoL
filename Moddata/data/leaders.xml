@@ -6,8 +6,8 @@
 	<Leader Name="FreeForAll" Icon="ui\game\icon\unsc\leader\Captain Cutter" Test="true" Random="false">
 		<Civ>FreeForAll</Civ>
 		<Tech>ffa_templeader</Tech>
-		<NameID>7000</NameID>
-		<DescriptionID>7001</DescriptionID>
+		<NameID>9</NameID>
+		<DescriptionID>9</DescriptionID>
 		<FlashCivID>0</FlashCivID>
 		<FlashImg>orbital</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
@@ -17,7 +17,6 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="ffa_starterbase_01" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">ffa_startunit_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
