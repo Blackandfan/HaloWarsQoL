@@ -15,6 +15,21 @@
 	<detailimage path="DetailImage" />
 	<tabs>
 		<tab label="$$24610$$Controls" image="img://art\ui\flash\shared\textures\options\options_controls.ddx">
+			<option label="$$10$$AlliedAIDELETE" name="AlliedAIDELETE" description="" title="true">
+				<list>
+					<item name="" />
+				</list>
+			</option>
+			<option label="$$11$$ATTACKMOVE" name="ATTACKMOVE" description="$$13$$" title="true">
+				<list>
+					<item name="" />
+				</list>
+			</option>
+			<option label="$$12$$GUARD" name="GUARD" description="$$14$$" title="true">
+				<list>
+					<item name="" />
+				</list>
+			</option>
 			<option label="Button Help" name="ShowButtonHelp" description="Show Button Help" config="Demo" ingame="true">
 				<checkbox />
 			</option>

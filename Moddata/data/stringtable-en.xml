@@ -10,6 +10,11 @@
 		<String _locID="7" category="Skirmish" subtitle="false">BEASLEY'S PLATEAU (FFA)</String>
 		<String _locID="8" category="Skirmish" subtitle="false">TERMINAL MORAINE (FFA)</String>
 		<String _locID="9" category="Leaders" subtitle="false">Free For All</String>
+		<String _locID="10" subtitle="false" category="UI">Use L to delete allied AI units.</String>
+		<String _locID="11" subtitle="false" category="UI">Use K or DPAD Right to Attack Move.</String>
+		<String _locID="12" subtitle="false" category="UI">Use O or DPAD Left to guard your squads.</String>
+		<String _locID="13" subtitle="false" category="UI">Your units will stop to engage any units along the way.</String>
+		<String _locID="14" subtitle="false" category="UI">Your units will not move until you unguard them.</String>
 		<String _locID="25356" category="UI" scenario="GameMenu" subtitle="false">LOCAL, DOUBLECLICK BASES</String>
 		<String _locID="25357" category="UI" scenario="GameMenu" subtitle="false">GLOBAL, DOUBLECLICK ALERTS</String>
 		<String _locID="25732" category="UI" scenario="UIControllerScreen" subtitle="false">ATTACKMOVE</String>

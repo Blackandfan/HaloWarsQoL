@@ -121,6 +121,7 @@
     <TriggerVar ID="136" Type="Object" Name="nullObject" IsNull="true" />
     <TriggerVar ID="137" Type="ObjectList" Name="nullObjectList" IsNull="true" />
     <TriggerVar ID="138" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="139" Type="Vector" Name="NewVector36" IsNull="false" />
   </TriggerVars>
   <Triggers>
     <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-2168" Y="-307" GroupID="-1" TemplateID="-1">
@@ -439,10 +440,14 @@
           <Input Name="AttackMove" SigID="8" Optional="true">37</Input>
           <Input Name="QueueOrder" SigID="9" Optional="true">132</Input>
         </Effect>
+        <Effect ID="23" Type="LocationTieToGround" DBID="58" Version="1" CommentOut="false">
+          <Input Name="SourceLocation" SigID="1" Optional="false">36</Input>
+          <Output Name="GroundLocation" SigID="2" Optional="false">139</Output>
+        </Effect>
         <Effect ID="55" Type="CreateObject v6" DBID="35" Version="6" CommentOut="false">
           <Input Name="ProtoObject" SigID="1" Optional="false">133</Input>
           <Input Name="Player" SigID="3" Optional="false">0</Input>
-          <Input Name="Location" SigID="2" Optional="false">36</Input>
+          <Input Name="Location" SigID="2" Optional="false">139</Input>
           <Input Name="Facing" SigID="10" Optional="true">134</Input>
           <Input Name="NoPhysics" SigID="11" Optional="true">135</Input>
           <Output Name="Object" SigID="4" Optional="true">136</Output>
