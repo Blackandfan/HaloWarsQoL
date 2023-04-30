@@ -182,7 +182,7 @@
     <Trigger ID="2" Name="NewTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2155" Y="-846" GroupID="-1" TemplateID="-1">
       <TriggerConditions>
         <Or>
-          <Condition ID="1" Type="UIButtonPressed v2" DBID="527" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+          <Condition ID="1" Type="UIButtonPressed v2" DBID="527" Version="2" CommentOut="false" Invert="false" Async="true" AsyncParameterKey="0">
             <Input Name="UIButton" SigID="1" Optional="false">56</Input>
             <Output Name="X" SigID="2" Optional="true">63</Output>
             <Output Name="Y" SigID="3" Optional="true">64</Output>
@@ -190,7 +190,7 @@
             <Output Name="ActionModifier" SigID="5" Optional="true">66</Output>
             <Output Name="SpeedModifier" SigID="6" Optional="true">67</Output>
           </Condition>
-          <Condition ID="3" Type="UIButtonPressed v2" DBID="527" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+          <Condition ID="3" Type="UIButtonPressed v2" DBID="527" Version="2" CommentOut="false" Invert="false" Async="true" AsyncParameterKey="0">
             <Input Name="UIButton" SigID="1" Optional="false">61</Input>
             <Output Name="X" SigID="2" Optional="true">68</Output>
             <Output Name="Y" SigID="3" Optional="true">69</Output>
@@ -241,7 +241,7 @@
     <Trigger ID="11" Name="NewTrigger11" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="7777" Y="-1592" GroupID="-1" TemplateID="-1">
       <TriggerConditions>
         <And>
-          <Condition ID="12" Type="NextSquad v1" DBID="141" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+          <Condition ID="12" Type="NextSquad v1" DBID="141" Version="1" CommentOut="false" Invert="false" Async="true" AsyncParameterKey="0">
             <Input Name="SquadIterator" SigID="1" Optional="false">81</Input>
             <Output Name="NextSquad" SigID="2" Optional="false">18</Output>
           </Condition>
@@ -257,7 +257,7 @@
     <Trigger ID="10" Name="NewTrigger10" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="8928" Y="-1646" GroupID="-1" TemplateID="-1">
       <TriggerConditions>
         <And>
-          <Condition ID="11" Type="CheckModeChange v1" DBID="386" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+          <Condition ID="11" Type="CheckModeChange v1" DBID="386" Version="1" CommentOut="false" Invert="false" Async="true" AsyncParameterKey="0">
             <Input Name="Squad" SigID="1" Optional="false">18</Input>
             <Output Name="Result" SigID="3" Optional="true">84</Output>
             <Output Name="IsNormal" SigID="2" Optional="true">24</Output>
@@ -278,7 +278,7 @@
     <Trigger ID="14" Name="NewTrigger14" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="10188" Y="-1695" GroupID="-1" TemplateID="-1">
       <TriggerConditions>
         <And>
-          <Condition ID="13" Type="CompareBool v1" DBID="114" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+          <Condition ID="13" Type="CompareBool v1" DBID="114" Version="1" CommentOut="false" Invert="false" Async="true" AsyncParameterKey="0">
             <Input Name="FirstBool" SigID="1" Optional="false">24</Input>
             <Input Name="CompareType" SigID="2" Optional="false">23</Input>
             <Input Name="SecondBool" SigID="3" Optional="false">22</Input>
@@ -312,7 +312,7 @@
     <Trigger ID="24" Name="NewTrigger24" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="11075" Y="-2496" GroupID="-1" TemplateID="-1">
       <TriggerConditions>
         <And>
-          <Condition ID="24" Type="IsMoving v1" DBID="416" Version="1" CommentOut="false" Invert="true" Async="false" AsyncParameterKey="0">
+          <Condition ID="24" Type="IsMoving v1" DBID="416" Version="1" CommentOut="false" Invert="true" Async="true" AsyncParameterKey="0">
             <Input Name="Unit" SigID="1" Optional="true">87</Input>
             <Input Name="Squad" SigID="2" Optional="true">18</Input>
           </Condition>
@@ -372,7 +372,7 @@
     <Trigger ID="18" Name="NewTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2270" Y="1588" GroupID="-1" TemplateID="-1">
       <TriggerConditions>
         <Or>
-          <Condition ID="18" Type="UIButtonPressed v2" DBID="527" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+          <Condition ID="18" Type="UIButtonPressed v2" DBID="527" Version="2" CommentOut="false" Invert="false" Async="true" AsyncParameterKey="0">
             <Input Name="UIButton" SigID="1" Optional="false">103</Input>
             <Output Name="X" SigID="2" Optional="true">110</Output>
             <Output Name="Y" SigID="3" Optional="true">111</Output>
@@ -380,7 +380,7 @@
             <Output Name="ActionModifier" SigID="5" Optional="true">113</Output>
             <Output Name="SpeedModifier" SigID="6" Optional="true">114</Output>
           </Condition>
-          <Condition ID="19" Type="UIButtonPressed v2" DBID="527" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+          <Condition ID="19" Type="UIButtonPressed v2" DBID="527" Version="2" CommentOut="false" Invert="false" Async="true" AsyncParameterKey="0">
             <Input Name="UIButton" SigID="1" Optional="false">108</Input>
             <Output Name="X" SigID="2" Optional="true">115</Output>
             <Output Name="Y" SigID="3" Optional="true">116</Output>
@@ -424,7 +424,7 @@
     <Trigger ID="20" Name="NewTrigger20" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="7367" Y="706" GroupID="-1" TemplateID="-1">
       <TriggerConditions>
         <And>
-          <Condition ID="20" Type="CanGetHoverPoint v1" DBID="990" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+          <Condition ID="20" Type="CanGetHoverPoint v1" DBID="990" Version="1" CommentOut="false" Invert="false" Async="true" AsyncParameterKey="0">
             <Input Name="Player" SigID="1" Optional="false">0</Input>
             <Output Name="HoverPoint" SigID="2" Optional="false">36</Output>
           </Condition>
